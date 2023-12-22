@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "version": "1.0.0",
+  "default_locale": "en",
+  "description": "__MSG_extDescription__",
+  "icons": {
+    "16": "images/icons/icon16.png",
+    "48": "images/icons/icon48.png",
+    "128": "images/icons/icon128.png"
+  },
+  "author": "Seiri",
+  "theme": {
+    "colors": {
+      "frame": [248, 248, 240],
+      "frame_incognito": [248, 248, 240],
+      "toolbar": [210, 229, 54],
+      "ntp_background": [0, 0, 0],
+      "button_background": [154, 154, 154, 0.5],
+      "tab_text": [0, 0, 0],
+      "background_tab": [210, 229, 54],
+      "tab_background_text": [225, 225, 225]
+    },
+    "images": {
+       "theme_frame": "images/theme_frame.png",
+       "theme_ntp_background": "images/theme_ntp_background.jpg"
+    },
+    "properties": {
+       "ntp_background_alignment": "center",
+       "ntp_background_repeat": "no-repeat"
+    },
+    "tints": {
+       "buttons": [0.5, 0.5, 0.5]
+    }
+ }
+}
